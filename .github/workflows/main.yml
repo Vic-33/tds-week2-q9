@@ -1,0 +1,11 @@
+name: My First GitHub Action
+
+on: [push] # This action will run on every push to the repository
+
+jobs:
+  test:
+    runs-on: ubuntu-latest # Specifies the runner environment
+
+    steps:
+      - name: 24f1001116@ds.study.iitm.ac.in # <--- REPLACE WITH YOUR EMAIL ADDRESS
+        run: echo "Hello, world!"
